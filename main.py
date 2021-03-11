@@ -8,6 +8,10 @@ from flask import jsonify
 import urllib
 import json
 from json import JSONEncoder
+from pyvirtualdisplay import Display
+
+virtual_display = Display(visible=0, size=(800, 600))
+virtual_display.start()
 
 # curl -d "keywords=['soomgo']" -X GET http://localhost:8000/get
 # curl -d "keywords=['jpa','java']" -X GET http://localhost:8000/get
@@ -137,6 +141,9 @@ class Get(Resource):
 
             companyListJSONData = json.dumps(clist, indent=4, cls=CompanyEncoder)
             companyList_json = json.loads(companyListJSONData)
+
+            driver.quit()
+            virtual_display.stop()
 
             return json.dumps(companyList_json,ensure_ascii=False)
         except Exception as e:
