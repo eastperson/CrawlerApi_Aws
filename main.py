@@ -35,7 +35,7 @@ class Get(Resource):
             options.add_argument('disable-gpu')
             options.add_argument('lang=ko_KR')
 
-            chromedriver = '/home/ec2-user/app/CrawlerApi_Aws/resources/chromedriver.exe'
+            chromedriver = '/home/ec2-user/chromedriver.exe'
 
             driver = webdriver.Chrome(chromedriver, options=options)
             driver.get('https://www.rocketpunch.com/jobs' + encoded + 'page=1')
