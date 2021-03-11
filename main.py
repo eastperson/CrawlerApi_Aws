@@ -40,6 +40,7 @@ class Get(Resource):
             options.add_argument('lang=ko_KR')
 
             chromedriver = webdriver.Chrome()
+            print(chromedriver)
 
             driver = webdriver.Chrome(chromedriver, options=options)
             driver.get('https://www.rocketpunch.com/jobs' + encoded + 'page=1')
