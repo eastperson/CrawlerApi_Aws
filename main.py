@@ -41,7 +41,8 @@ class Get(Resource):
 
 
             # driver = webdriver.Chrome(options=options)
-            driver = webdriver.Chrome()
+            driver = webdriver.Chrome(r'\home\ec2-user\chromedriver.exe')
+
 
             driver.get('https://www.rocketpunch.com/jobs' + encoded + 'page=1')
 
