@@ -1,4 +1,4 @@
-# CrawlerApi_Aws
+# CrawlerApi_aws
 
 ## 개요
 
@@ -22,7 +22,7 @@
 draw.io
 [https://app.diagrams.net/?src=about#G1BlR1CSy57MiDlN9HXUpSvXTVGPRjVjD9](https://app.diagrams.net/?src=about#G1BlR1CSy57MiDlN9HXUpSvXTVGPRjVjD9)
 
-▶️ **Request**
+<h3>▶️ Request</h3>
 
 ```
 GET /get HTTP/1.1
@@ -48,9 +48,9 @@ Host: 54.180.98.206:8080
 	</tbody>
 </table>
 
-▶️ **Response**
+<h3>▶️ Response</h3>
 
-<h3>Response</h3>
+**Response**
 <table>
 	<thead>
 		<tr>
@@ -58,6 +58,7 @@ Host: 54.180.98.206:8080
 			<th>Type</th>
 			<th>Description</th>
 			<th>Required</th>
+			<td>O</td>
 		</tr>
 	</thead>
 	<tbody>
@@ -65,12 +66,13 @@ Host: 54.180.98.206:8080
 			<td>clist</td>
 			<td><code>Company[]</code></td>
 			<td>당일날짜 기준으로 키워드로 로켓펀치에서 검색된 채용공고</td>
+			<td></td>
 		</tr>
 	</tbody>
 </table>
 
 
-⏺️ **Sample**
+<h3>⏺️ Sample</h3>
 
 **Request**
 
