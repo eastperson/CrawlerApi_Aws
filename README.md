@@ -26,7 +26,7 @@ draw.io
 
 ```
 GET /get HTTP/1.1
-Host: 54.180.98.206:8080
+Host: 54.180.98.206:8000
 ```
 
 <h3>Parameter</h3>
@@ -77,7 +77,7 @@ Host: 54.180.98.206:8080
 **Request**
 
 ```json
-curl -v -X GET "https://54.180.98.206:8080/get"
+curl -v -X GET "https://54.180.98.206:8000/get"
     -d 'keywords=["soomgo","jpa"]'
 ```
 
