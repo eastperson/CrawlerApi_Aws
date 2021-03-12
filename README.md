@@ -44,6 +44,7 @@ Host: 54.180.98.206:8080
 			<td>keywords</td>
 			<td><code>String[]</code></td>
 			<td>로켓펀치 채용 공고로 검색할 키워드</td>
+			<td>O<td>
 		</tr>
 	</tbody>
 </table>
@@ -58,7 +59,6 @@ Host: 54.180.98.206:8080
 			<th>Type</th>
 			<th>Description</th>
 			<th>Required</th>
-			<td>O</td>
 		</tr>
 	</thead>
 	<tbody>
