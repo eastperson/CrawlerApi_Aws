@@ -77,8 +77,8 @@ Host: 54.180.98.206:8000
 **Request**
 
 ```json
-curl -v -X GET "https://54.180.98.206:8000/get"
-    -d 'keywords=["soomgo","jpa"]'
+curl -X GET "http://54.180.98.206:8000/get" 
+     -d keywords=["soomgo","jpa"]
 ```
 
 **Response**
@@ -125,5 +125,8 @@ curl -v -X GET "https://54.180.98.206:8000/get"
 						"link":"https://www.rocketpunch.com/jobs/69824/%EC%88%A8%EA%B3%A0-CX-Specialist"
 						}
 				]
+...
+...
+
 }
 ```
