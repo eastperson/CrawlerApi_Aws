@@ -8,6 +8,20 @@
 
 사이트는 일단 로켓펀치를 대상으로 하였다. 이후 프로그래머스, 사람인 등으로 확장해 나갈 계획이고 중복 데이터를 제거하는 로직은 서버에서 구현할 예정이다.
 
+<a href="https://www.notion.so/REST-API-AWS-EC2-2454edcbeaf8426381aec98f1143c17c">개발일지</a>
+
+### 기술스택
+
+- Python 3.x
+- Flask
+- Selenium
+- AWS EC2
+
+### 아키텍쳐 다이어그램
+![Untitled](https://user-images.githubusercontent.com/66561524/110876664-492d6700-831b-11eb-8d96-e4747cb17740.png)
+draw.io
+[https://app.diagrams.net/?src=about#G1BlR1CSy57MiDlN9HXUpSvXTVGPRjVjD9](https://app.diagrams.net/?src=about#G1BlR1CSy57MiDlN9HXUpSvXTVGPRjVjD9)
+
 ▶️ **Request**
 
 ```
@@ -76,17 +90,3 @@ curl -v -X GET "https://54.180.98.206:8080/get"
 				]
 }
 ```
-
-### 기술스택
-
-- Python 3.x
-- Flask
-- Selenium
-- AWS EC2
-
-### 아키텍쳐 다이어그램
-![Untitled](https://user-images.githubusercontent.com/66561524/110876664-492d6700-831b-11eb-8d96-e4747cb17740.png)
-draw.io
-[https://app.diagrams.net/?src=about#G1BlR1CSy57MiDlN9HXUpSvXTVGPRjVjD9](https://app.diagrams.net/?src=about#G1BlR1CSy57MiDlN9HXUpSvXTVGPRjVjD9)
-
-<a href="https://www.notion.so/REST-API-AWS-EC2-2454edcbeaf8426381aec98f1143c17c">개발일지</a>
