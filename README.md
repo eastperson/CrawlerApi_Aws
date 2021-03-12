@@ -29,11 +29,46 @@ GET /get HTTP/1.1
 Host: 54.180.98.206:8080
 ```
 
-[Parameter](https://www.notion.so/027d909cfbfb4cae9cff7eafbbbeaebf)
+<h3>Parameter</h3>
+<table>
+	<thead>
+		<tr>
+			<th>Name</th>
+			<th>Type</th>
+			<th>Description</th>
+			<th>Required</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>keywords</td>
+			<td><code>String[]</code></td>
+			<td>로켓펀치 채용 공고로 검색할 키워드</td>
+		</tr>
+	</tbody>
+</table>
 
 ▶️ **Response**
 
-[Response](https://www.notion.so/e28f7e7fef134147b11605664681d4b1)
+<h3>Response</h3>
+<table>
+	<thead>
+		<tr>
+			<th>Name</th>
+			<th>Type</th>
+			<th>Description</th>
+			<th>Required</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>clist</td>
+			<td><code>Company[]</code></td>
+			<td>당일날짜 기준으로 키워드로 로켓펀치에서 검색된 채용공고</td>
+		</tr>
+	</tbody>
+</table>
+
 
 ⏺️ **Sample**
 
