@@ -66,7 +66,7 @@ Host: 54.180.98.206:8000
 	<tbody>
 		<tr>
 			<td>clist</td>
-			<td><code>Company[]</code></td>
+			<td><code>Object[]</code></td>
 			<td>당일날짜 기준으로 키워드로 로켓펀치에서 검색된 채용공고</td>
 			<td></td>
 		</tr>
